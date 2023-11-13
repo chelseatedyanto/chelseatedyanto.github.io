@@ -1,0 +1,477 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  transition:.2s linear;
+}
+
+body {
+  
+  margin: 0;
+  padding:0;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+/* Nav Bar */
+.navbar p {
+  font-size: 1.7vw;
+  margin-left: 65px;
+  border: 2px;
+  padding: 7px;
+  background-color: black;
+  color: white;
+  vertical-align: middle;
+  animation: bounceLogo 1s;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  vertical-align: middle;
+  
+}
+
+nav {
+  width: 100%;
+  height: 40px;
+  padding: 30px;
+  text-align: right;
+  margin-bottom: 75px;
+}
+
+nav ol {
+  display: block;
+  margin: 30px;
+  
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: middle;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: rgb(147, 149, 147);
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+/* Main Page */
+#mainpage {
+  display: flex;
+  margin-bottom: 50px;
+  
+}
+
+#photo1 {
+  width:32vw;
+  height: auto;
+  float: right;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  animation:fadeIn 2s;
+}
+.mainpic{
+  margin-top: 130px;
+  margin-right: 50px;
+  vertical-align: middle;
+
+}
+
+
+.mainpage2 {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#mainpage p1 {
+  font-size: 6.5vw;
+  line-height: 1.2;
+  
+}
+
+.mainname {
+  margin-top: 160px;
+  margin-left:17vw;
+  overflow: hidden;
+  animation:fadeIn 2s;
+}
+
+.mainpage2 .mainintro p2 {
+  font-size: 15px; 
+}
+
+
+.mainintro {
+  text-align: left;
+  line-height: 20px;
+  margin-top: 40px;
+  margin-left: 40%;
+  padding-right: 10%;
+  color: rgb(143, 138, 138);
+  letter-spacing: 2px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  animation: slideInLeft 1.5s ease-in normal;
+  overflow: hidden;
+}
+
+
+/* About Section */
+.about{
+  text-align: center;
+  background-color: black;
+}
+#wrapper1, #warpper2 {
+  margin: 0 auto;
+}
+
+.container1 .box {
+  width: 100%;
+  height: auto;
+  padding:20px;
+  text-align: left;
+  background-color: white;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.container2 .box {
+  width: 100%;
+  height: auto;
+  padding:40px;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 50px;
+  border-radius: 10px;
+
+}
+
+
+.container1 {
+  display:grid;
+  justify-content: center;
+  gap:20px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top:50px; 
+}
+.container2 {
+  display:grid;
+  justify-content: center;
+  gap:20px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top:50px; 
+}
+
+#wrapper1 h2, #wrapper2 h2 {
+  font-size: 48px;
+  text-align: center;
+  color: white;
+  padding-top:60px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#photo2{
+  height:30px;
+  width:auto;
+  margin-bottom: 15px;
+}
+#photo3{
+  height:31px;
+  width:auto;
+  margin-bottom: 15px;
+}
+#photo4{
+  height:32.5px;
+  width:auto;
+  margin-bottom: 15px;
+}
+#photo5{
+  height:29px;
+  width:auto;
+  margin-bottom: 15px;
+}
+#photo8{
+  height: 14vw;
+  width:auto;
+  margin-top:15px;
+  margin-bottom: 35px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+#photo9{
+  height: 14vw;
+  width:auto;
+  margin-top:15px;
+  margin-bottom: 35px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.box p5{
+  font-size: 14px;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 2;
+  
+}
+.box p6{
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:black;
+}
+.box p7{
+  font-size: 25px;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.box p8{
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:rgb(158, 158, 158);
+ 
+}
+.box p9{
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:black;
+}
+.box a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/*Contact*/
+
+.contactsection{
+  background-color: white;
+}
+#contact h3{
+  font-size: 48px;
+  margin-top: 45px;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#photo6{
+  height: 18px;
+  width: auto;
+  vertical-align:middle;
+  margin-bottom:5px;
+}
+#photo7{
+  height:22px;
+  width: auto;
+  vertical-align:middle;
+  
+}
+
+.contact1 p7 {
+font-size: 18px;
+margin-left: 3px;
+line-height: 3.5;
+}
+
+.contact1{
+text-align: center;
+margin: 0 10px; 
+margin-right: 50px;
+
+}
+.contact2{
+text-align: center;
+margin: 0 10px; 
+margin-top: 12px;
+
+}
+.contact2 p7 {
+font-size: 18px;
+margin-left: 3px;
+line-height: 2;
+}
+
+.contact2 p{
+margin-top: 17px;
+font-size: 17px;
+
+}
+.contact-info{
+text-align: center; 
+margin-top: 20px;
+display: flex; 
+align-items: center; 
+justify-content: center;
+vertical-align: middle;
+}
+
+.buttons{
+margin-top:40px;
+margin-bottom: 60px;
+text-align: center;
+}
+.buttons a{
+  color:white;
+  
+}
+.glow-on-hover{
+  border-radius: 5px;
+  color: rgb(114, 111, 111);
+  background-color: rgb(128, 60, 60);
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width:200px;
+}
+.glow-on-hover {
+    
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: white;
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(109, 109, 109);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+.credit p10{
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:rgb(226, 180, 180);
+  margin-bottom: 50px;
+ }
+
+
+ /*Media Query*/
+
+ @media (max-width:770px){
+  .about{
+    padding:20px;
+  }
+  .mainpage2 .mainintro p2 {
+    font-size: 2vw; 
+    line-height: -2.5;
+  }
+  nav li {
+    font-size: 2vw;
+    padding-right: 15px;
+  }
+}
+
+/*Animation*/
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-200px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0; 
+  }
+  to {
+    opacity: 1; 
+  }
+}
+@keyframes bounceLogo {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.navbar p:hover {
+  transform: scale(1.04); /* Enlarge to 120% of its original size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+#photo1:hover {
+  transform: scale(1.04); /* Enlarge to 120% of its original size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+.mainname:hover {
+  transform: scale(1.04); /* Enlarge to 120% of its original size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+.mainintro:hover {
+  transform: scale(1.04); /* Enlarge to 120% of its original size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+.box:hover {
+  transform: scale(1.04); /* Enlarge to 120% of its original size on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+
