@@ -12,28 +12,40 @@
         <p>CT</p>
         <nav>
             <ol>
-              <li><a href="#mainpage">Home</a></li>
-              <li><a href="#wrapper1">Skills</a></li>
-              <li><a href="#wrapper2">Projects</a></li>
-              <li><a href="#contact">Contact Me</a></li>
+              <li><a href="#mainpage">HOME</a></li>
+              <li><a href="#wrapper1">SKILLS</a></li>
+              <li><a href="#wrapper2">PROJECTS</a></li>
+              <li><a href="#contact">CONTACT ME</a></li>
             </ol>
         </nav>
-        
     </div>
 
     <main class="maincontainer">
         <div id="mainpage">
             <div class="mainpage2">
                 <div class="mainname">
-                    <p1>Chelsea<br>&nbsp;&nbsp;&nbsp;Tedyanto</p1>
+                    <p1>Hey, you found me!<br></p1>
+                    <p20>I'm Chelsea</p20><p21>.</p21>
                 </div>
-                <div class="mainintro">
-                    <p2>Hello, I'm Chelsea.<br/>I am a second year student from York University's Lassonde School of Engineering department, 
-                        currently enrolled in the Bachelor's Degree of Computer Science program.</p2>
+                <div class="mainintrobigger">
+                    <div class="mainintro">
+                        <p2>I'm a third-year student at York University's Lassonde School of Engineering department , currently 
+                            conquering a bachelor's degree in Computer Science. When I'm not buried in code, you'll find me dreaming up 
+                            sleek designs and perfecting user experiences.</p2><p22>&nbsp;Welcome to my digital playground!</p22>
+                    </div>
+                    <div class="maincontact">
+                        <a href="https://drive.google.com/file/d/1Obar14x4tvwV74ZcvmLFqHio3vXIw5rc/view?usp=drive_link" target="_blank">
+                            <img id="mainresume" src="./images/resume.png">
+                            <p23>If you want my resume</p23>
+                        </a>
+                        <br>
+                        <a href="https://www.linkedin.com/in/chelseatedyanto" target="_blank">
+                            <img id="mainlinkedin" src="./images/linkedin.png">
+                            <p24>Or my LinkedIn</p24>
+                        </a>
+                    </div>
+                    
                 </div>
-            </div>
-            <div class="mainpic">
-                <img id= "photo1" src="/images/mypic.png">
             </div>
         </div>
     </main>
@@ -43,80 +55,109 @@
             <h2>Skills</h2>
             <div class="container1">
                 <div class="box">
-                    <img id= "photo2" src="/images/frontend.png"><br/>
+                    <img id="photo2" src="./images/frontend.png"><br/>
                     <p5>Front-end</p5><br/>
                     <p6>Proficiency in HTML, CSS, and JavaScript, equipping me with the skills and knowledge needed for front-end development.</p6>
                 </div>
                 <div class="box">
-                    <img id= "photo3" src="/images/backend.png"><br/>
+                    <img id="photo3" src="./images/backend.png"><br/>
                     <p5>Back-end</p5><br/>
                     <p6>I have a good foundation in Java and C language, providing me with the essential skills for back-end development.</p6>
                 </div>
                 <div class="box">
-                    <img id= "photo4" src="/images/creative.png"><br/>
+                    <img id="photo4" src="./images/creative.png"><br/>
                     <p5>Creative Design</p5><br/>
                     <p6>I enjoy dabbling in other creative works that requires skill sets in graphic design, photoshop, and video editing.</p6>
                 </div>
                 <div class="box">
-                    <img id= "photo5" src="/images/smartphone.png"><br/>
+                    <img id="photo5" src="./images/smartphone.png"><br/>
                     <p5>Mobile App Development</p5><br/>
                     <p6>I have experience in the user interface aspect of mobile development, particularly using react native in one of my projects.</p6>
                 </div>
             </div>
         </div>
-            <div id="wrapper2">
-                <h2>Projects</h2>
-                    <div class="container2">
-                        <div class="box">
-                            <a href="https://github.com/chelseatedyanto/chelseatedyanto.github.io" target="_blank">
-                            <img id= "photo8" src="/images/website.png"><br/>
-                            <p7>My Personal Website</p7><br/>
-                            <p8>Made with HTML, CSS</p8><br/><br/>
-                            <p9>Introducing my personal website where you can seamlessly navigate through my portfolio, discover and explore past and current projects, and connect with me easily. I'm excited to welcome you to my digital space!</p9>
-                            </a>
-                        </div>
-            
-                        <div class="box">
-                            <a href="https://github.com/chelseatedyanto" target="_blank">
-                            <img id= "photo9" src="/images/cleanairto.png"><br/>
-                            <p7>CleanAirTO</p7><br/>
-                            <p8>Made with TypeScript, React Native framework.</p8><br/><br/>
-                            <p9>Introducing CleanAirTO, a mobile app that offers real-time monitoring and analysis of air pollution data by integrating Air Quality Index (AQI) and temperature metrics from Google Maps API, allowing you to visualize them on an interactive map.</p9>
-                            </a>
+        <div id="wrapper2">
+            <h2>Projects</h2>
+            <div class="container2">
+                <div class="box">
+                    <div id="carousel-container1">
+                        <img id="carousel-image1" src="./images/website.png" >
+                        <div class="carousel-arrows">
+                            <span id="prev-arrow1" class="carousel-arrow disabled"><img src="./images/left-arrow.png" alt="Previous Arrow"></span>
+                            <span id="next-arrow1" class="carousel-arrow"><img src="./images/right-arrow.png" alt="Next Arrow"></span>
                         </div>
                     </div>
+                    <a href="https://github.com/chelseatedyanto/chelseatedyanto.github.io" target="_blank">
+                        <p7>My Personal Website</p7><br/>
+                        <p8>Made with HTML, CSS</p8><br/><br/>
+                        <p9>Introducing my personal website where you can seamlessly navigate through my portfolio, discover and explore past and current projects, and connect with me easily. I'm excited to welcome you to my digital space!</p9>
+                    </a>
+                </div>
+                <div class="box">
+                    <div id="carousel-container">
+                        <img id="carousel-image" src="./images/cleanairto.png" >
+                        <div class="carousel-arrows">
+                            <span id="prev-arrow" class="carousel-arrow disabled"><img src="./images/left-arrow.png" alt="Previous Arrow"></span>
+                            <span id="next-arrow" class="carousel-arrow"><img src="./images/right-arrow.png" alt="Next Arrow"></span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/chelseatedyanto" target="_blank">
+                        <p7>CleanAirTO</p7><br/>
+                        <p8>Made with TypeScript, React Native framework.</p8><br/><br/>
+                        <p9>Introducing CleanAirTO, a mobile app that offers real-time monitoring and analysis of air pollution data by integrating Air Quality Index (AQI) and temperature metrics from Google Maps API, allowing you to visualize them on an interactive map.</p9>
+                    </a>
+                </div>
+                <div class="box">
+                    <div id="carousel-container2">
+                        <img id="carousel-image2" src="./images/recipe1.png" >
+                        <div class="carousel-arrows">
+                            <span id="prev-arrow2" class="carousel-arrow disabled"><img src="./images/left-arrow.png" alt="Previous Arrow"></span>
+                            <span id="next-arrow2" class="carousel-arrow"><img src="./images/right-arrow.png" alt="Next Arrow"></span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/chelseatedyanto/recipe-app" target="_blank">
+                        <p7>Yumtastic</p7><br/>
+                        <p8>Made with React JS</p8><br/><br/>
+                        <p9>A recipe web application built with React JS, featuring recipe browsing, search functionality, and sections for specific and popular dishes. Integrated the Spoonacular API to dynamically fetch real-time culinary data, including various cuisines, cooking instructions, and ingredient lists.</p9>
+                    </a>
+                </div>
             </div>
+        </div>
     </div>
 
     <footer class="contactsection">
         <div id="contact">
-            <h3>Contact Me</h3>
-          </div>
-          <div class="contact-info">
-            <div class="contact1">
-              <img id="photo6" src="/images/email.png"><p7>Email:</p7><br/>
-              <a href="mailto:ctedyanto@gmail.com">ctedyanto@gmail.com</a>
+            <h3>don't be shy, <br></h3>
+            <h4>get in touch</h4>
+        </div>
+        <div id="contact_align">
+            <div>
+                <p>CONTACT ME</p>
             </div>
-            
-            <div class="contact2">
-              <img id="photo7" src="/images/phone.png"><p7>Phone:</p7><br/>
-              <p>+1 437-255-6661</p>
+            <div class="contact-info">
+                <div class="contact1">
+                    <a href="mailto:ctedyanto@gmail.com">EMAIL</a>
+                </div>
+                <div class="contact1">
+                    <a href="https://www.linkedin.com/in/chelseatedyanto">LINKEDIN</a>
+                </div>
+                <div class="contact1">
+                    <a href="https://github.com/chelseatedyanto">GITHUB</a>
+                </div>
+                <div class="contact1">
+                    <a href="https://drive.google.com/file/d/1Obar14x4tvwV74ZcvmLFqHio3vXIw5rc/view?usp=drive_link">RESUME</a>
+                </div>
             </div>
-          </div>
-          <div class="buttons">
-            <button class="glow-on-hover" onclick="window.open('https://drive.google.com/file/d/1l6jl3AZfBkuVcgpeeAFEr3G5dtgONJH1/view?usp=drive_link', '_blank')">
-                Resume
-            </button>
-            <button class="glow-on-hover" onclick="window.open('https://www.linkedin.com/in/chelseatedyanto', '_blank')">
-                LinkedIn
-            </button>
-            <button class="glow-on-hover" onclick="window.open('https://github.com/chelseatedyanto', '_blank')">
-                GitHub
-            </button>
-          </div>
-          <div class="credit">
-            <p10>Designed and Built by Chelsea Tedyanto</p10>
-          </div>
+            <div id="contact_extra">
+                <a href="https://open.spotify.com/user/chelsea.ted?si=79b8198fc6284d17">JAM W/ ME:<BR>MY SPOTIFY</a>
+            </div>
+        </div>
+        
+        <div class="credit">
+            <p10>DESIGNED AND DEVELOPED BY CHELSEA TEDYANTO</p10>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
