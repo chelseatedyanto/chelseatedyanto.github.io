@@ -85,10 +85,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Carousel functionality for another section
 const imageUrls1 = [
-    './images/website.png',
-    './images/website2.png',
-    './images/website3.png',
-    './images/website4.png'
+    './images/w1.png',
+    './images/w2.png',
+    './images/w3.png',
+    './images/w4.png',
+    './images/w5.png'
     // Add more image URLs as needed
 ];
 
@@ -207,6 +208,69 @@ document.getElementById('next-arrow2').addEventListener('click', showNextImage2)
 
 // Event listener for previous arrow in section 2
 document.getElementById('prev-arrow2').addEventListener('click', showPreviousImage2);
+
+///////////////////////////////////////////////////////////// this is three musketeers carousel
+ // Carousel functionality for another section
+ const imageUrls3 = [
+    './images/tm1.png',
+    './images/tm2.png',
+    './images/tm3.png',
+    './images/tm4.png',
+    './images/tm5.png'
+    // Add more image URLs as needed
+];
+
+let currentImageIndex3 = 0;
+
+// Function to display current image in section 1
+function showCurrentImage3() {
+    const imageUrl = imageUrls3[currentImageIndex3];
+    document.getElementById('carousel-image3').src = imageUrl;
+    updateArrows3();
+}
+
+// Function to update arrow visibility in section 1
+function updateArrows3() {
+    const prevArrow = document.getElementById('prev-arrow3');
+    const nextArrow = document.getElementById('next-arrow3');
+
+    if (currentImageIndex3 === 0) {
+        prevArrow.classList.add('disabled');
+    } else {
+        prevArrow.classList.remove('disabled');
+    }
+
+    if (currentImageIndex3 === imageUrls3.length - 1) {
+        nextArrow.classList.add('disabled');
+    } else {
+        nextArrow.classList.remove('disabled');
+    }
+}
+
+// Show initial image in section 1
+showCurrentImage3();
+
+// Function to show next image in section 1
+function showNextImage3() {
+    if (currentImageIndex3 < imageUrls3.length - 1) {
+        currentImageIndex3++;
+        showCurrentImage3();
+    }
+}
+
+// Function to show previous image in section 1
+function showPreviousImage3() {
+    if (currentImageIndex3 > 0) {
+        currentImageIndex3--;
+        showCurrentImage3();
+    }
+}
+
+// Event listener for next arrow in section 1
+document.getElementById('next-arrow3').addEventListener('click', showNextImage3);
+
+// Event listener for previous arrow in section 1
+document.getElementById('prev-arrow3').addEventListener('click', showPreviousImage3);
 
     
 });
