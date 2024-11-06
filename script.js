@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
     //////////////////////////////////////////this is cleanairto carousel
     const imageUrls = [
         './images/cleanairto.png',
-        './images/cleanairto2.JPG',
-        './images/cleanairto3.JPG'
+        './images/cleanairto2.png',
+        './images/cleanairto3.png'
         // Add more image URLs as needed
     ];
 
