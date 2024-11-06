@@ -326,16 +326,16 @@ a:visited {
   margin-top: 3%;
 }
 #contact h3{
-  font-size: 2.8vw;
+  font-size: 1.8vw;
   margin-left: 6.3%;
-  margin-bottom: -1%;
+  margin-bottom: -0.5%;
   color: #bcbbbb;
   font-family: sans-serif;
 }
 #contact h4{
-  font-size: 6vw;
+  font-size: 4vw;
   margin-left: 6%;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
   font-family: sans-serif;
 }
 
@@ -435,7 +435,7 @@ font-weight: 600;
 
 #carousel-container {
   position: relative;
-  width: 20vw; /* Adjust as needed */
+  width: 35vw; /* Adjust as needed */
   height: auto;
   text-align: center;
   margin: 0 auto; /* Center the container horizontally */
@@ -443,12 +443,13 @@ font-weight: 600;
 
 #carousel-container #carousel-image {
   width: auto;
-  height: 12vw;
+  height: 18vw;
   max-width: 80%;
   max-height: auto;
   display: block;
   margin: 0 auto;
   margin-bottom: 2%;
+  margin-top: 5%;
 }
 
 #carousel-container .carousel-arrows {
@@ -462,7 +463,7 @@ font-weight: 600;
 
 #carousel-container .carousel-arrow {
   cursor: pointer;
-  width: 10%;
+  width: 8%;
   height: 20%;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 50%;
@@ -492,14 +493,14 @@ font-weight: 600;
 /*************************this is personal website carousel*****************************/
 #carousel-container1 {
   position: relative;
-  width: 20vw; /* Adjust as needed */
+  width: 35vw; /* Adjust as needed */
   height: auto;
   text-align: center;
   margin: 0 auto; /* Center the container horizontally */
 }
 
 #carousel-container1 #carousel-image1 {
-  width: 25vw;
+  width: 28vw;
   height: auto; /*EDIT THE PHOTO HERE*/
   max-width: 80%;
   max-height: auto;
@@ -520,7 +521,7 @@ font-weight: 600;
 
 #carousel-container1 .carousel-arrow {
   cursor: pointer;
-  width: 10%;
+  width: 8%;
   height: 20%;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 50%;
@@ -548,16 +549,16 @@ font-weight: 600;
 /*************************this is recipe app carousel*****************************/
 #carousel-container2 {
   position: relative;
-  width: 20vw; /* Adjust as needed */
+  width: 35vw; /* Adjust as needed */
   height: auto;
   text-align: center;
   margin: 0 auto; /* Center the container horizontally */
 }
 
 #carousel-container2 #carousel-image2 {
-  width: auto;
-  height: 11vw; /*EDIT THE PHOTO HERE*/
-  max-width: 75%;
+  width: 26vw;
+  height: auto; /*EDIT THE PHOTO HERE*/
+  max-width: 100%;
   max-height: auto;
   display: block;
   margin: 0 auto;
@@ -576,7 +577,7 @@ font-weight: 600;
 
 #carousel-container2 .carousel-arrow {
   cursor: pointer;
-  width: 10%;
+  width: 8%;
   height: 20%;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 50%;
@@ -597,6 +598,62 @@ font-weight: 600;
 }
 
 #carousel-container2 .carousel-arrow.disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/*************************this is three musketeers carousel*****************************/
+#carousel-container3 {
+  position: relative;
+  width: 35vw; /* Adjust as needed */
+  height: auto;
+  text-align: center;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+#carousel-container3 #carousel-image3 {
+  width: 23vw;
+  height: auto; /*EDIT THE PHOTO HERE*/
+  max-width: 80%;
+  max-height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 4%;
+  margin-bottom: 5%;
+}
+
+#carousel-container3 .carousel-arrows {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+#carousel-container3 .carousel-arrow {
+  cursor: pointer;
+  width: 8%;
+  height: 20%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+#carousel-container3 .carousel-arrow img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Ensure the arrow icon fits within the arrow container */
+  filter: grayscale(100%) brightness(0.5); /* Optional styling for arrow icon */
+}
+
+#carousel-container3 .carousel-arrow.disabled {
   opacity: 0;
   pointer-events: none;
 }
