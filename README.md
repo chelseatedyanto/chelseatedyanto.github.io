@@ -9,4 +9,4 @@ https://chelseatedyanto.github.io
 </p>
 
 ## Built with
-HTML and CSS
+HTML, CSS, and JavaScript
